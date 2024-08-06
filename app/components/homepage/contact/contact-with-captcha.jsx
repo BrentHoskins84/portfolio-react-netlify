@@ -64,6 +64,9 @@ function ContactWithCaptcha() {
     };
   };
 
+  console.log('captcha', process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY);
+  console.log('captcha', process.env.NEXT_PUBLIC_RECAPTCHA_SECRET_KEY);
+
   return (
     <div className="with-captcha">
       <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
