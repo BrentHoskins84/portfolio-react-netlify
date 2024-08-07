@@ -60,7 +60,7 @@ async function Statistics() {
               </div>
               <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
                 <Image
-                    src={`https://github-readme-stats.vercel.app/api?username=${personalData.githubUser}&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true`}
+                    src={`https://github-readme-stats.vercel.app/api?username=${personalData.githubUser}&show_icons=true&rank_icon=github&include_all_commits=true&theme=transparent&hide_border=true`}
                     width={1080}
                     height={520}
                     alt="github profile-details"
@@ -83,10 +83,10 @@ async function Statistics() {
               </div>
               <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
                 <Image
-                    src={`https://github-readme-stats.vercel.app/api?username=${personalData.githubUser}&show_icons=true&include_all_commits=true&theme=transparent&hide_border=true`}
+                    src={`https://github-readme-stats.vercel.app/api?username=${personalData.githubUser}&show_icons=true&rank_icon=github&include_all_commits=true&theme=transparent&hide_border=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&hide=stars,commits,prs,issues,contribs`}
                     width={1080}
                     height={520}
-                    alt="github profile-details"
+                    alt="github profile-stats"
                     className="rounded-lg "
                   />
               </div>
