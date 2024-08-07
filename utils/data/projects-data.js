@@ -3,12 +3,12 @@
 export const projectsData = [
     {
         id: 1,
-        name: 'Mikuni Mobile App',
-        description: "While working for Three29, I led the development of a React Native app for Mikuni Sushi, consolidating user accounts from their website, rewards platform, and mobile app into a single source of truth using Paytronix. We created a custom API for authentication and rebuilt the app with custom page transitions, animations, and features for managing Paytronix accounts, making purchases with points, and using both physical and digital gift cards. Additionally, we integrated the Seat Ninja API for reservations and food pickup, enhancing the overall user experience and engagement.",
-        tools: ['React Native', 'Paytronix API', 'Wordpress Custom Plugin', 'React Native Navigation', 'Reanimated 2', 'Context API', 'E-Commerce', 'Seat Ninja API'],
-        role: 'Full Stack Developer',
+        name: 'Prokennex Racquetball',
+        description: "At Battleborn USA, we revamped the website for Prokennex Racquetball to address several critical issues. We integrated the MyWorks plugin to sync the website with QuickBooks, ensuring accurate inventory management. Additionally, we developed a custom plugin that applied discounts based on user roles for sponsored players. We also created a comprehensive plugin to manage player contracts, facilitating their creation, email distribution, and role assignment on the website. The project also included a complete redesign of the site to enhance its look and feel.",
+        tools: ['WordPress', 'MyWorks', 'WooCommerce', "Elementor", "PHP", "JavaScript", "SCSS", "Webpack", "MySQL", "Custom WordPress Plugin"],
         code: '',
         demo: '',
+        role: 'Full Stack Developer',
     },
     {
         id: 2,
@@ -30,13 +30,13 @@ export const projectsData = [
     },
     {
         id: 4,
-        name: 'Prokennex Racquetball',
-        description: "At Battleborn USA, we revamped the website for Prokennex Racquetball to address several critical issues. We integrated the MyWorks plugin to sync the website with QuickBooks, ensuring accurate inventory management. Additionally, we developed a custom plugin that applied discounts based on user roles for sponsored players. We also created a comprehensive plugin to manage player contracts, facilitating their creation, email distribution, and role assignment on the website. The project also included a complete redesign of the site to enhance its look and feel.",
-        tools: ['WordPress', 'MyWorks', 'WooCommerce', "Elementor", "PHP", "JavaScript", "SCSS", "Webpack", "MySQL", "Custom WordPress Plugin"],
+        name: 'Mikuni Mobile App',
+        description: "While working for Three29, I led the development of a React Native app for Mikuni Sushi, consolidating user accounts from their website, rewards platform, and mobile app into a single source of truth using Paytronix. We created a custom API for authentication and rebuilt the app with custom page transitions, animations, and features for managing Paytronix accounts, making purchases with points, and using both physical and digital gift cards. Additionally, we integrated the Seat Ninja API for reservations and food pickup, enhancing the overall user experience and engagement.",
+        tools: ['React Native', 'Paytronix API', 'Wordpress Custom Plugin', 'React Native Navigation', 'Reanimated 2', 'Context API', 'E-Commerce', 'Seat Ninja API'],
+        role: 'Full Stack Developer',
         code: '',
         demo: '',
-        role: 'Full Stack Developer',
-    }
+    },
 ];
 
 

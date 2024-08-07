@@ -5,6 +5,7 @@ module.exports = {
     includePaths: [path.join(__dirname, 'styles')],
   },
   images: {
+    dangerouslyAllowSVG: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -19,6 +20,16 @@ module.exports = {
       {
         protocol: 'https',
         hostname: 'three29.com',
+        pathname: '**',
+      },
+      {
+        protocol: 'http',
+        hostname: 'github-profile-summary-cards.vercel.app',
+        pathname: '**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'github-readme-stats.vercel.app',
         pathname: '**',
       },
     ],
