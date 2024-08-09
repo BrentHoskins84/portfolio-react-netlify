@@ -28,6 +28,9 @@ function ContactWithCaptcha() {
 
   const handleSendMail = async (e) => {
     e.preventDefault();
+
+    console.log('captcha: ', captcha);
+
     if (!captcha) {
       toast.error('Please complete the captcha!');
       return;
@@ -46,9 +49,16 @@ function ContactWithCaptcha() {
     const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
     const options = { publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY };
 
+    console.log('serviceID: ', serviceID);
+    console.log('templateID: ', templateID);
+    console.log('options: ', options);
+
     try {
-      const res = await emailjs.send(serviceID, templateID, userInput, options);
-      const teleRes = await axios.post(`${process.env.NEXT_PUBLIC_APP_URL}/api/contact`, userInput);
+      const res = await emailjs.send(serviceID, templateID, input, options);
+      const teleRes = await axios.post(`${process.env.NEXT_PUBLIC_APP_URL}/api/contact`, input);
+
+      console.log('res: ', res);
+      console.log('teleRes: ', teleRes);
 
       if (res.status === 200 || teleRes.status === 200) {
         toast.success('Message sent successfully!');
@@ -60,6 +70,7 @@ function ContactWithCaptcha() {
         setCaptcha(null);
       };
     } catch (error) {
+      console.log('error: ', error);
       toast.error(error?.text || error);
     };
   };
