@@ -72,7 +72,8 @@ import vuetifyjs from '/public/svg/skills/vuetifyjs.svg';
 import webix from '/public/svg/skills/webix.svg';
 import wolframalpha from '/public/svg/skills/wolframalpha.svg';
 import wordpress from '/public/svg/skills/wordpress.svg';
-
+import supabase from '/public/svg/skills/supabase.svg';
+import nodeJS from '/public/svg/skills/nodejs-icon.svg';
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -225,6 +226,10 @@ export const skillsImage = (skill) => {
       return wolframalpha;
     case 'canva':
       return canva;
+    case 'supabase':
+      return supabase;
+    case 'node js':
+      return nodeJS;
     default:
       break;
   }

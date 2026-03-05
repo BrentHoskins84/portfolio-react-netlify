@@ -4,7 +4,7 @@ export const personalData = {
   profile: "/Brent-military.jpeg",
   designation: "Full Stack Developer",
   description:
-    "As a well-qualified Full Stack Developer with over 9 years of experience, I bring expertise in a diverse range of programming utilities and languages. I handle all aspects of backend and frontend development with ease, navigating every stage of the process with precision. Clients and colleagues value me for my collaborative approach, exceptional technical abilities, and strong analytical and communication skills. I adapt quickly to new environments while maintaining a positive attitude and unwavering commitment to continuous learning. I'm passionate about contributing to team success and furthering my professional development, always ready to tackle new challenges and deliver high-quality solutions.",
+    "Senior Full Stack Developer, U.S. Army veteran, and active TS/SCI clearance holder with 10+ years shipping web and mobile products across healthcare, NATO, and enterprise environments. Expert in React, React Native, Node.js, and AWS — equally comfortable architecting a serverless backend from scratch or leading a cross-functional team through a complex delivery. The kind of engineer who's debugged production systems in Kosovo and built telemedicine platforms in Sacramento.",
   email: "brenthoskins84@gmail.com",
   phone: "(831) 224-2078",
   address: "Sacramento, CA",
@@ -14,5 +14,5 @@ export const personalData = {
   devUsername: "brenthoskins84",
   githubUser: "BrentHoskins84",
   resume:
-    "https://drive.google.com/file/d/17RELgehRv7CtnOT1M7JOfEJgKxveNVkB/view?usp=sharing",
+    "https://drive.google.com/file/d/1CxtcwL7KiLZO3SlZ8cT4GVHqAlkl_UF4/view?usp=sharing",
 };
