@@ -4,7 +4,7 @@ export const personalData = {
   profile: "/Brent-military.jpeg",
   designation: "Full Stack Developer",
   description:
-    "Senior Full Stack Developer, U.S. Army veteran, and active TS/SCI clearance holder with 10+ years shipping web and mobile products across healthcare, NATO, and enterprise environments. Expert in React, React Native, Node.js, and AWS — equally comfortable architecting a serverless backend from scratch or leading a cross-functional team through a complex delivery. The kind of engineer who's debugged production systems in Kosovo and built telemedicine platforms in Sacramento.",
+    "Senior Full Stack Developer, U.S. Army veteran, and active TS/SCI clearance holder with 10+ years shipping web and mobile products across healthcare, NATO, and enterprise environments. Expert in React, React Native, Node.js, and AWS — equally comfortable architecting a serverless backend from scratch or leading a cross-functional team through a complex delivery. A proven engineer who has debugged production systems in Kosovo and built telemedicine platforms in Sacramento.",
   email: "brenthoskins84@gmail.com",
   phone: "(831) 224-2078",
   address: "Sacramento, CA",
